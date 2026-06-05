@@ -1,0 +1,10 @@
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.md"
+ci:
+  - changed-files:
+      - any-glob-to-any-file: ".github/workflows/**"
+templates:
+  - changed-files:
+      - any-glob-to-any-file: ".github/ISSUE_TEMPLATE/**"
